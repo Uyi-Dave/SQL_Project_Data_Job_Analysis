@@ -51,7 +51,7 @@ ORDER BY
     demand_count DESC
 LIMIT 25
 
--- rewriting this sam query more concisely
+-- rewriting this same query more concisely
 SELECT
     skills_dim.skill_id,
     skills_dim.skills,
